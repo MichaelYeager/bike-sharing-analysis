@@ -8,7 +8,12 @@ st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 
 # 1. Load Data
 # Dashboard akan membaca file main_data.csv yang sudah Anda simpan sebelumnya
-df = pd.read_csv("main_data.csv")
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(current_dir, "main_data.csv")
+
+df = pd.read_csv(file_path)
 df['dteday'] = pd.to_datetime(df['dteday'])
 
 # 2. Sidebar (Filter)
