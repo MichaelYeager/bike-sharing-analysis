@@ -17,21 +17,22 @@ Dashboard ini merupakan proyek akhir dari Fundamental Analisis Data menggunakan 
 **Setup Environment - Anaconda**
 Jika kamu menggunakan Anaconda, jalankan perintah berikut:
 
-Bash
+```Bash
 conda create --name main-ds python=3.9
 conda activate main-ds
 pip install -r requirements.txt
-
+```
 **Setup Environment - Shell/Terminal**
 Jika kamu menggunakan terminal biasa/pipenv:
 
 ```Bash
 mkdir proyek_analisis_data
 cd proyek_analisis_data
-pip install -r requirements.txt```
-
+pip install -r requirements.txt
+```
 **Run Streamlit App**
 Untuk menjalankan dashboard secara lokal, masuk ke folder dashboard dan jalankan perintah:
 
 ```Bash
-streamlit run dashboard.py```
+streamlit run dashboard.py
+```
