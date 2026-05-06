@@ -1,6 +1,6 @@
 # Bike Sharing Analysis Dashboard ✨
 
-**Deskripsi**
+**Deskripsi :**
 Dashboard ini merupakan proyek akhir dari Fundamental Analisis Data menggunakan Python di Dicoding. Proyek ini melakukan analisis data pada Bike Sharing Dataset untuk menemukan pola penyewaan sepeda berdasarkan kondisi cuaca dan waktu (jam kerja vs hari libur).  
 
 **Struktur Direktori**
