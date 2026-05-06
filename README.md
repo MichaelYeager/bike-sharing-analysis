@@ -4,18 +4,14 @@
 Dashboard ini merupakan proyek akhir dari Fundamental Analisis Data menggunakan Python di Dicoding. Proyek ini melakukan analisis data pada Bike Sharing Dataset untuk menemukan pola penyewaan sepeda berdasarkan kondisi cuaca dan waktu (jam kerja vs hari libur).  
 
 **Struktur Direktori**
-`/dashboard`: Berisi file utama `dashboard.py` dan data yang telah dibersihkan `main_data.csv`.  
-
-`/data`: Berisi dataset asli dalam format .csv (`day.csv` dan `hour.csv`).  
-
-`Proyek_Analisis_Data_Michael_Hartadi.ipynb`: File Jupyter Notebook yang berisi proses lengkap Data Wrangling, EDA, dan Visualisasi.  
-
-`requirements.txt`: Daftar library Python yang dibutuhkan untuk menjalankan proyek.  
-
-`url.txt`: Link dashboard yang sudah di-deploy ke Streamlit Cloud.  
+*   `/dashboard`: Berisi file utama `dashboard.py` dan data yang telah dibersihkan `main_data.csv`.
+*   `/data`: Berisi dataset asli dalam format .csv (`day.csv` dan `hour.csv`.
+*   `Proyek_Analisis_Data_Michael_Hartadi.ipynb`: File Jupyter Notebook berisi proses lengkap *Data Wrangling*, *EDA*, dan Visualisasi.
+*   `requirements.txt`: Daftar library Python yang dibutuhkan.
+*   `url.txt`: Link dashboard yang telah di-deploy ke Streamlit Cloud.  
 
 **Setup Environment - Anaconda**
-Jika kamu menggunakan Anaconda, jalankan perintah berikut:
+Jika menggunakan Anaconda, jalankan perintah berikut:
 
 ```Bash
 conda create --name main-ds python=3.9
@@ -34,5 +30,5 @@ pip install -r requirements.txt
 Untuk menjalankan dashboard secara lokal, masuk ke folder dashboard dan jalankan perintah:
 
 ```Bash
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
 ```
